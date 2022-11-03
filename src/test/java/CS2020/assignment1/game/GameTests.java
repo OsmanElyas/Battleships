@@ -5,8 +5,8 @@ import static org.junit.Assert.*;
 import org.junit.Test;
 
 import CS2020.assignment1.game.AbstractGameGrid;
-/*
 import CS2020.assignment1.game.BattleShip;
+/*
 import CS2020.assignment1.game.Game;
 import CS2020.assignment1.game.GameControls;
 import CS2020.assignment1.game.GameGrid;
@@ -43,7 +43,7 @@ public class GameTests {
 	        
 	    }
 
-		/*    
+		    
 	    
 	@Test
 	public void t1_1_a() {
@@ -79,7 +79,7 @@ public class GameTests {
         }
 	}
 	
-
+/*
 	@Test
 	public void t1_2() {
 		try {
