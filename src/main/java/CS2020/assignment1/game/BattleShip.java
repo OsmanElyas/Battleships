@@ -41,10 +41,18 @@ public class BattleShip extends AbstractBattleShip{
     }
 
     public boolean checkAttack(int row, int column){
-        if (numberOfHits < 3){
-            return false
-        } else if ([row][column])
+        return true;}
 
+   public boolean checkAttack(int row, int column){
+        if (numberOfHits < 3){
+            return false;
+        } else {
+            for (let i = 0; i < shipCoordinates.length; i++) {
+                if(row == i and column == i){
+                    return true;
+                }
+        }
+        }
         return true;
     }
 

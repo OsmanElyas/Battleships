@@ -79,7 +79,7 @@ public class GameTests {
         }
 	}
 	
-/*
+
 	@Test
 	public void t1_2() {
 		try {
@@ -144,7 +144,7 @@ public class GameTests {
 	    }	
 		
 	}
-	
+	/*
 	@Test
 	public void t2_1() {
 	       
@@ -174,7 +174,7 @@ public class GameTests {
 	    }	
 		
 	}
-	
+	/*
 	@Test
 	public void t2_2() {
 	       
