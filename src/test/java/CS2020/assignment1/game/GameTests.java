@@ -6,8 +6,8 @@ import org.junit.Test;
 
 import CS2020.assignment1.game.AbstractGameGrid;
 import CS2020.assignment1.game.BattleShip;
-/*
 import CS2020.assignment1.game.GameGrid;
+/*
 import CS2020.assignment1.game.Game;
 import CS2020.assignment1.game.GameControls;
 import CS2020.assignment1.game.OpponentGameGrid;
@@ -144,17 +144,15 @@ public class GameTests {
 	    }	
 		
 	}
-	/*
+	
 	@Test
 	public void t2_1() {
-	       
 			try {
 		    AbstractGameGrid gameGrid = new GameGrid (10,10,4);
 		    
 		    boolean foundDifferentCharacter  =false;
 		   
 		    for (int i = 0; i< gameGrid.gameGrid.length;i++) {
-				
 				String subArray [] = gameGrid.gameGrid[i];
 				for (int j = 0; j< subArray.length;j++) {
 					//allow ships as well in case later tasks were completed too 
