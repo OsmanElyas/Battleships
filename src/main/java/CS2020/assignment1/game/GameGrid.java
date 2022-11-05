@@ -1,4 +1,4 @@
-package CS2020.assignment1.game;
+/*package CS2020.assignment1.game;
 import java.util.Random;
 
 public class GameGrid extends AbstractGameGrid{
@@ -32,4 +32,4 @@ public class GameGrid extends AbstractGameGrid{
     }
 
 
-}
+}*/

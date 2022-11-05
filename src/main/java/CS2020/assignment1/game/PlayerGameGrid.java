@@ -1,4 +1,4 @@
-package CS2020.assignment1.game;
+/*package CS2020.assignment1.game;
 
 public class PlayerGameGrid extends GameGrid{
     public void printGrid(){
@@ -10,4 +10,4 @@ public class PlayerGameGrid extends GameGrid{
         }
         
     }
-}
+}*/

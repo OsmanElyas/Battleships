@@ -40,27 +40,21 @@ public class BattleShip extends AbstractBattleShip{
         this.shipCoordinates = coordinates;
     }
 
-     public boolean checkAttack(int row, int column){
-         if (hits == 3){
-             return false;
-         }else{
-         return true;
-         }
-         }
-  /* public boolean checkAttack(int row, int column){
+   public boolean checkAttack(int row, int column){
         if (hits == 3){
             return false;
         } 
-            for (int i = 0; i < shipCoordinates.length; i++) {
-                if(row == i && column == i){
-                    return true;
-                } else {
-                    return false;
-                }
+        for (int i = 0; i < shipCoordinates.length; i++) {
+            if(row == shipCoordinates[i][0] && column == shipCoordinates[i][1]){
+                hits += 1; 
+                return true;
             }
-        
+            
+        } 
+        return false;
 
-    }*/
+
+    }
 
 
 }
