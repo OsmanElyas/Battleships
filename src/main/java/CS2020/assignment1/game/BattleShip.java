@@ -13,7 +13,6 @@ public class BattleShip extends AbstractBattleShip{
         else if (ran == 1) {
             this.shipOrientation = "horizontal";
         }
-
     }
 
     public String getName(){
