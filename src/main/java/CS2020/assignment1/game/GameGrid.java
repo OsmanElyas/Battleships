@@ -28,29 +28,39 @@ public class GameGrid extends AbstractGameGrid{
     }
 
     public void placeShip(AbstractBattleShip ship){
-        int gridHeight == this.gameGrid.length;
-        int gridWidth == this.gameGrid[0].length;
+            //get random coordinates. make sure they dont overspill. put on grid and store location.
+
+
+        int gridHeight == this.gameGrid.length();
+        int gridWidth == this.gameGrid[0].length();
+        int shipsLength == 3;
+        int[][] shipsCoordinates = new int[3][2];
         int startX;
         int startY;
-        int shipsLength == 3;
+        
+        
 
         Random rand = new Random();
         
         if (ship.Orientation == "vertical"){
             startY = rand.nextInt(gridHeight - shipsLength + 1);
-            startX = rand.nextInt(gridWidth) ;            
+            startX = rand.nextInt(gridWidth) ;   
+            for(i = 0; i < 3; i++){
+                shipsCoordinates[i][0] = startX;
+                shipsCoordinates[i][1] = startY + i;
+            }    
         }else{
             startY = rand.nextInt(gridHeight) ;   
             startX = rand.nextInt(gridHeight - shipsLength + 1);
+            for(i = 0; i < 3; i++){
+                shipsCoordinates[i][0] = startX + 1;
+                shipsCoordinates[i][1] = startY;
+            }  
+            
         }
+        ship.setShipCoordinates(shipsCoordinates);
 
-        //get random coordinates. make sure they dont overspill. put on grid and store location.
-
-        for (int i = 1; i <= numberOfShips; i++){
-            ships[i] = ;
-        }
-
-
+    }
 
 
 }
