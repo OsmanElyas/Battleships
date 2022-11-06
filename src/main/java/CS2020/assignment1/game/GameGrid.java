@@ -28,7 +28,7 @@ public class GameGrid extends AbstractGameGrid{
     for (int i = 0; i < numberOfShips; i++){
         ships[i] = new BattleShip("Ship "+(i+1));
         }
-        System.out.println("Hi");
+
     }
 
     public void placeShip(AbstractBattleShip ship){
@@ -63,8 +63,7 @@ public class GameGrid extends AbstractGameGrid{
             this.gameGrid[coordinate[1]][coordinate[0]] = "*";
         }
         ship.setShipCoordinates(shipsCoordinates);
-        System.out.println(Arrays.deepToString(this.gameGrid));
-        System.out.println("Hello");
+
     }
 
 

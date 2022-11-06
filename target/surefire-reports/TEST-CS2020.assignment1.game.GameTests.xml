@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CS2020.assignment1.game.GameTests" time="0.447" tests="7" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="CS2020.assignment1.game.GameTests" time="0.097" tests="7" errors="0" skipped="0" failures="0">
   <properties>
     <property name="awt.toolkit" value="sun.awt.X11.XToolkit"/>
     <property name="java.specification.version" value="11"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="US"/>
     <property name="sun.boot.library.path" value="/usr/lib/jvm/zulu-11-amd64/lib"/>
-    <property name="sun.java.command" value="/home/codio/workspace/Osman_Elyas/target/surefire/surefirebooter17179901564673212152.jar /home/codio/workspace/Osman_Elyas/target/surefire 2022-11-06T02-16-07_899-jvmRun1 surefire8189788419201180586tmp surefire_013760450188827347774tmp"/>
+    <property name="sun.java.command" value="/home/codio/workspace/Osman_Elyas/target/surefire/surefirebooter7276683872927347582.jar /home/codio/workspace/Osman_Elyas/target/surefire 2022-11-06T02-21-47_729-jvmRun1 surefire10363375258957484725tmp surefire_016601820056766660725tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="/home/codio/workspace/Osman_Elyas/target/test-classes:/home/codio/workspace/Osman_Elyas/target/classes:/home/codio/.m2/repository/junit/junit/4.11/junit-4.11.jar:/home/codio/.m2/repository/org/hamcrest/hamcrest-core/1.3/hamcrest-core-1.3.jar:"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -32,7 +32,7 @@
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="jdk.vendor.version" value="Zulu11.41+23-CA"/>
     <property name="java.awt.graphicsenv" value="sun.awt.X11GraphicsEnvironment"/>
-    <property name="surefire.real.class.path" value="/home/codio/workspace/Osman_Elyas/target/surefire/surefirebooter17179901564673212152.jar"/>
+    <property name="surefire.real.class.path" value="/home/codio/workspace/Osman_Elyas/target/surefire/surefirebooter7276683872927347582.jar"/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="11.0.8+10-LTS"/>
     <property name="user.name" value="codio"/>
@@ -64,5 +64,5 @@
   <testcase name="t1_3" classname="CS2020.assignment1.game.GameTests" time="0"/>
   <testcase name="t2_1" classname="CS2020.assignment1.game.GameTests" time="0"/>
   <testcase name="t2_2" classname="CS2020.assignment1.game.GameTests" time="0"/>
-  <testcase name="t2_3" classname="CS2020.assignment1.game.GameTests" time="0.413"/>
+  <testcase name="t2_3" classname="CS2020.assignment1.game.GameTests" time="0.071"/>
 </testsuite>
