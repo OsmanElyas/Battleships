@@ -3,14 +3,14 @@ import java.util.Random;
 
 public class BattleShip extends AbstractBattleShip{
 
-    public BattleShip(String Name) {
-        this.name = Name;
+    public BattleShip(String name) {
+        this.name = name;
         Random rand = new Random();
         int ran = rand.nextInt(2);
         if(ran == 0){
             this.shipOrientation = "vertical";
         } 
-        else if (ran == 1) {
+        else{
             this.shipOrientation = "horizontal";
         }
     }
