@@ -52,9 +52,9 @@ public class GameGrid extends AbstractGameGrid{
             }    
         }else{
             startY = rand.nextInt(gridHeight) ;   
-            startX = rand.nextInt(gridHeight - shipsLength + 1);
+            startX = rand.nextInt(gridWidth - shipsLength + 1);
             for(int i = 0; i < 3; i++){
-                shipsCoordinates[i][0] = startX + 1;
+                shipsCoordinates[i][0] = startX + i;
                 shipsCoordinates[i][1] = startY;
             }  
             
