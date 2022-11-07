@@ -1,4 +1,4 @@
-/*package CS2020.assignment1.game;
+package CS2020.assignment1.game;
 import java.util.Scanner;
 
 public class Game extends GameControls{
@@ -50,4 +50,4 @@ public class Game extends GameControls{
 
 
 
-}*/
+}

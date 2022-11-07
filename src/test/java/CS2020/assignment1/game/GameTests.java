@@ -9,8 +9,8 @@ import CS2020.assignment1.game.BattleShip;
 import CS2020.assignment1.game.GameGrid;
 import CS2020.assignment1.game.OpponentGameGrid;
 import CS2020.assignment1.game.PlayerGameGrid;
-/*
 import CS2020.assignment1.game.Game;
+/*
 import CS2020.assignment1.game.GameControls;
 */
 import org.junit.Before;
@@ -383,7 +383,7 @@ public class GameTests {
 	    }	
 		
 	}
-	/*
+	
 	@Test
 	public void t3_1() {
 	       
@@ -411,7 +411,7 @@ public class GameTests {
 	    }	
 		
 	}
-	
+	/*
 	@Test
 	public void t3_3() {
 	       

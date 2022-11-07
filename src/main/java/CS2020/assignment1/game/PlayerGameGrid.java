@@ -10,8 +10,8 @@ public class PlayerGameGrid extends GameGrid{
         int width = gameGrid.length;
         int height = gameGrid[0].length;
         System.out.println("Player's Grid");
-        for (int r = 0; r< gameGrid.length;r++){
-            for (int c = 0; c <gameGrid[0].length;c++){
+        for (int r = 0; r< width ;r++){
+            for (int c = 0; c < height;c++){
                 System.out.print(gameGrid[r][c]+ " ");
             }
             System.out.print("\n");
