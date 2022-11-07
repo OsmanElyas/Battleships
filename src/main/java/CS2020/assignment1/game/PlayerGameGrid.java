@@ -1,13 +1,21 @@
-/*package CS2020.assignment1.game;
+package CS2020.assignment1.game;
 
 public class PlayerGameGrid extends GameGrid{
+
+    public PlayerGameGrid(int width, int height, int noOfShips){
+        super(width,height,noOfShips);
+    }
+
     public void printGrid(){
-        for (int r = 0; r<board.length;r++){
-            for (int c = 0; c <board.length;c++){
-                System.out.print (board[r][c] + " ");
+        int width = gameGrid.length;
+        int height = gameGrid[0].length;
+        System.out.println("Player's Grid");
+        for (int r = 0; r< gameGrid.length;r++){
+            for (int c = 0; c <gameGrid[0].length;c++){
+                System.out.print(gameGrid[r][c]+ " ");
             }
-            System.out.println();
+            System.out.print("\n");
         }
         
     }
-}*/
+}

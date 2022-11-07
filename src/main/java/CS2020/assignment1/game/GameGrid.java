@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class GameGrid extends AbstractGameGrid{
 
-    public GameGrid(int width, int height, int noOfShips){
+  public GameGrid(int width, int height, int noOfShips){
 
         this.gameGrid = new String[width][height];
         initializeGrid();

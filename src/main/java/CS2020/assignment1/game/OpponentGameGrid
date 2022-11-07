@@ -1,8 +1,0 @@
-/*package CS2020.assignment1.game;
-
-public class OpponentGameGrid extends GameGrid{
-    public void printGrid{
-        System.out.println("Opponent's Grid")
-        
-    }
-}*/

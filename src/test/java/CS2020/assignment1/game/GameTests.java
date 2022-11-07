@@ -7,11 +7,11 @@ import org.junit.Test;
 import CS2020.assignment1.game.AbstractGameGrid;
 import CS2020.assignment1.game.BattleShip;
 import CS2020.assignment1.game.GameGrid;
+import CS2020.assignment1.game.OpponentGameGrid;
+import CS2020.assignment1.game.PlayerGameGrid;
 /*
 import CS2020.assignment1.game.Game;
 import CS2020.assignment1.game.GameControls;
-import CS2020.assignment1.game.OpponentGameGrid;
-import CS2020.assignment1.game.PlayerGameGrid;
 */
 import org.junit.Before;
 import org.junit.After;
@@ -257,7 +257,7 @@ public class GameTests {
 	    }	
 		
 	}
-	/*
+	
 	@Test
 	public void t2_4() {
 	       
@@ -383,7 +383,7 @@ public class GameTests {
 	    }	
 		
 	}
-	
+	/*
 	@Test
 	public void t3_1() {
 	       
